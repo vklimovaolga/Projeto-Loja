@@ -1,6 +1,6 @@
 
 <?php 
-    $controllers = ["teste"];
+    $controllers = ["home"];
     $controller = $controllers[0];
 
     define("ROOT", dirname($_SERVER["SCRIPT_NAME"]). "/");
