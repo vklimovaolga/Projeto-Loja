@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Home</title>
+        <title>Jewelry & Accessories</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
@@ -47,31 +47,19 @@
                     </button>
                     <div class="collapse navbar-collapse " id="collapsibleNavbar">
                         <ul class="navbar-nav">
-                            <li class="nav-item"><a href="categorys/jewelry_accessories" class="col-sm">Jewelry & Accessories</a></li>
-                            <li class="nav-item"><a href="categorys/clothing_shoes" class="col-sm">Clothing & Shoes</a></li>
-                            <li class="nav-item"><a href="categorys/home_living" class="col-sm">Home & Living</a></li>
-                            <li class="nav-item"><a href="categorys/wedding_party" class="col-sm">Wedding & Party</a></li>
-                            <li class="nav-item"><a href="categorys/toys_entertainment" class="col-sm">Toys & Entertainment</a></li>
-                            <li class="nav-item"><a href="categorys/art_collectibles" class="col-sm">Art & Collectibles</a></li>
-                            <li class="nav-item"><a href="categorys/craft_supplies_tools" class="col-sm">Craft Supplies & Tools</a></li>
-                            <li class="nav-item"><a href="categorys/vintage" class="col-sm">Vintage</a></li>
+                            <li class="nav-item"><a href="" class="col-sm">Jewelry & Accessories</a></li>
+                            <li class="nav-item"><a href="" class="col-sm">Clothing & Shoes</a></li>
+                            <li class="nav-item"><a href="" class="col-sm">Home & Living</a></li>
+                            <li class="nav-item"><a href="" class="col-sm">Wedding & Party</a></li>
+                            <li class="nav-item"><a href="" class="col-sm">Toys & Entertainment</a></li>
+                            <li class="nav-item"><a href="" class="col-sm">Art & Collectibles</a></li>
+                            <li class="nav-item"><a href="" class="col-sm">Craft Supplies & Tools</a></li>
+                            <li class="nav-item"><a href="" class="col-sm">Vintage</a></li>
                         </ul>
                     <div>   
                 </nav>
             </div>
-            <div class="row justify-content-md-center">
-                <div class="col-sm col-lg-6">
-                    <p>Yes! Send me exclusive offers, unique gift ideas, and personalized tips for shopping and selling on Etsy.</p>
-                    <form action="" methode="POST">
-                        <div class="input-group mb-3">
-                            <label></label>
-                            <input type="text" class="form-control" placeholder="enter your email">
-                            <button class="btn btn-dark" type="button">Sign</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
+            
         </div>
     </body>
 </html>
-
