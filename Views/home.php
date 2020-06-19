@@ -47,14 +47,14 @@
                     </button>
                     <div class="collapse navbar-collapse " id="collapsibleNavbar">
                         <ul class="navbar-nav">
-                            <li class="nav-item"><a href="categorys/jewelry_accessories" class="col-sm">Jewelry & Accessories</a></li>
-                            <li class="nav-item"><a href="categorys/clothing_shoes" class="col-sm">Clothing & Shoes</a></li>
-                            <li class="nav-item"><a href="categorys/home_living" class="col-sm">Home & Living</a></li>
-                            <li class="nav-item"><a href="categorys/wedding_party" class="col-sm">Wedding & Party</a></li>
-                            <li class="nav-item"><a href="categorys/toys_entertainment" class="col-sm">Toys & Entertainment</a></li>
-                            <li class="nav-item"><a href="categorys/art_collectibles" class="col-sm">Art & Collectibles</a></li>
-                            <li class="nav-item"><a href="categorys/craft_supplies_tools" class="col-sm">Craft Supplies & Tools</a></li>
-                            <li class="nav-item"><a href="categorys/vintage" class="col-sm">Vintage</a></li>
+                            <li class="nav-item"><a href="categories/jewelry_accessories" class="col-sm">Jewelry & Accessories</a></li>
+                            <li class="nav-item"><a href="categories/clothing_shoes" class="col-sm">Clothing & Shoes</a></li>
+                            <li class="nav-item"><a href="categories/home_living" class="col-sm">Home & Living</a></li>
+                            <li class="nav-item"><a href="categories/wedding_party" class="col-sm">Wedding & Party</a></li>
+                            <li class="nav-item"><a href="categories/toys_entertainment" class="col-sm">Toys & Entertainment</a></li>
+                            <li class="nav-item"><a href="categories/art_collectibles" class="col-sm">Art & Collectibles</a></li>
+                            <li class="nav-item"><a href="categories/craft_supplies_tools" class="col-sm">Craft Supplies & Tools</a></li>
+                            <li class="nav-item"><a href="categories/vintage" class="col-sm">Vintage</a></li>
                         </ul>
                     <div>   
                 </nav>

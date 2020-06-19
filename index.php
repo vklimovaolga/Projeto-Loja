@@ -1,5 +1,5 @@
 <?php 
-    $controllers = ["home", "categorys"];
+    $controllers = ["home", "categories"];
     $controller = $controllers[0];
 
     define("ROOT", dirname($_SERVER["SCRIPT_NAME"]). "/");
