@@ -34,6 +34,7 @@
                 </div>
                 <div class="col-sm">
                     <button type="button" class="btn btn-light rounded-lg">Sing In</button>
+                    <a class="btn btn-light rounded-lg" href="seller_access/register_shop">Create Shop</a>
                 </div>
                 <div class="col-sm">
                     <!-- <img src="icon/shopping-cart.png" alt="cart"> -->

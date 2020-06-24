@@ -1,7 +1,6 @@
 Data base
 
-
-categories
+categories --
 category_id
 name
 parent_id
@@ -15,25 +14,39 @@ bracelets
 body_jewelry
 
 
-product
+products --
 product_id
-name
+product_name
 description
-image
+image_id
 price
 stock
-color
-size
-country_id
+color_id
+size_id
+location_id
 category_id
+
+images
+image_id
+image_name
+product_id
+
+colors
+color_id
+color_name
+product_id
+
+sizes
+size_id
+size_name
+product_id
 
 orders
 order_id
 user_id
-shipper_id
+seller_id
 order_date
 payment_date
-
 
 orderdetails
 order_id
@@ -50,16 +63,23 @@ email
 password
 active
 registration_date
-address
-postal_code
-city
-country_id
 
-shippers
-shipper_id
-shipper_name
-country_id
-phone
+location_id
+    address
+    postal_code
+    city
+    country_id
+
+sellers
+seller_id
+seller_name
+location_id
+email
+password
+active
+registration_date
+    shop_name
+
 
 countries
 country_id
