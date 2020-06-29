@@ -64,6 +64,14 @@ password
 active
 registration_date
 
+users_profiles
+user_profile_id
+description
+url
+picture
+created_at
+user_id
+
 location_id
     address
     postal_code
@@ -78,8 +86,17 @@ email
 password
 active
 registration_date
-    shop_name
+    
 
+sellers_profiles
+seller_profile_id
+description
+url
+picture
+created_at
+shop_name
+location_id
+seller_id
 
 countries
 country_id

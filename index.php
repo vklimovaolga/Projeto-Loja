@@ -1,5 +1,6 @@
 <?php 
-    $controllers = ["home", "categories", "seller_access"];
+    session_start();
+    $controllers = ["home", "categories", "seller_access", "create_seller_profile"];
     $controller = $controllers[0];
 
     define("ROOT", dirname($_SERVER["SCRIPT_NAME"]). "/");

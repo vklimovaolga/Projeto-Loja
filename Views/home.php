@@ -33,8 +33,20 @@
                     </div>
                 </div>
                 <div class="col-sm">
-                    <button type="button" class="btn btn-light rounded-lg">Sing In</button>
-                    <a class="btn btn-light rounded-lg" href="seller_access/register_shop">Create Shop</a>
+                    <?php
+                        if(!isset($_SESSION["seller_id"])) {
+                            echo '
+                                <a class="btn btn-light rounded-lg" href="seller_access/login_shop">SingIn</a>
+                                <a class="btn btn-light rounded-lg" href="seller_access/register_shop">Create Shop</a>
+                            ';
+                        }
+                        else {
+                            if(!isset($data[0]["profile_id"])) {
+                                echo '<a class="btn btn-light rounded-lg" href="create_seller_profile/create_seller_profile">Create Shop Profile</a>';
+                            }
+                            echo '<a class="btn btn-light rounded-lg" href="seller_access/logout">Logout</a>';
+                        }
+                    ?>
                 </div>
                 <div class="col-sm">
                     <!-- <img src="icon/shopping-cart.png" alt="cart"> -->

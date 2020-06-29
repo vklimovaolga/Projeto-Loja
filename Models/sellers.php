@@ -28,6 +28,41 @@ class Sellers extends Base {
            print_r("erro");
         }
     }
+
+    public function login($data) {
+        if(
+            !empty($data["username"]) &&
+            !empty($data["password"])
+        ) { 
+            $query = $this->db->prepare("
+                SELECT seller_id, password, seller_name
+                FROM sellers
+                WHERE seller_name = ?
+            ");
+
+            $query->execute([
+                $data["username"]
+            ]);
+
+            $seller = $query->fetchAll( PDO::FETCH_ASSOC );
+
+        }
+        else {
+            echo "erro";
+        }
+
+        if(
+            !empty($seller) &&
+            password_verify($data["password"], $seller[0]["password"] )
+        ) {
+            $_SESSION["seller_id"] = $seller[0]["seller_id"];
+            return true;
+        }
+        else {
+            return false;
+            echo "erro";
+        }
+    }
 }
 
 ?>
