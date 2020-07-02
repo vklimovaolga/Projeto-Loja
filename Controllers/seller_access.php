@@ -20,7 +20,7 @@
                 $status = $model->login($_POST);
 
                 $model = new Sellers_Profiles();
-                $data = $model->getSellerProfile($profile_id);
+                // $data = $model->getSellerProfile($profile_id);
 
                 if($status && $data && isset($_SESSION["seller_id"])) {
                     header("Location: ".ROOT."create_seller_profile/create_seller_profile/".$data[0]["seller_id"]);
